@@ -1,0 +1,14 @@
+# include<iostream>
+# include<conio.h>
+# include<math.h>
+using namespace std;
+int main()
+{
+	double a=0,b=0,c=0,d=0,e=0;
+	cout<<"enter the principle, time and rate\n";
+	cin>>a>>b>>c;
+	d=a*pow((1+(c/100)),b);
+	e=d-a;
+	cout<<"the compound interest is:"<<e;
+	return 0;
+}
